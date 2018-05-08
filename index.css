@@ -1,0 +1,58 @@
+body {
+    /*background-image: url("./Images/Grace2.JPG");*/
+    /*background-position: center;*/
+    /*background-size: cover;*/
+    /*position:relative;*/
+    /*background-repeat: no-repeat;*/
+    /*filter: sepia(0);*/
+    
+    
+}
+
+/*NAVBAR*/
+nav {
+    color:#808080;
+    position: relative;
+}
+.name {
+   color: #808080;
+   text-align: left;
+}
+.menuFull {
+      color:#808080;
+}
+.right {
+    text-align: right;
+}
+h3 a {
+    color:#808080;
+}
+h3 a:hover{
+    color:#FFB6C1;
+    text-decoration: none;
+}
+li a {
+    color:#808080;
+}
+li a:hover{
+    color:#FFB6C1;
+}
+
+/*JUMBOTRON*/
+.jumbotron-fluid{
+    position:relative;
+}
+.jumbo{
+    padding-left: 0px;
+    padding-right: 0px;
+    margin:0;
+}
+.cover {
+    width: 100vw;
+    height: 500px;
+}
+
+/*About*/
+.about{
+    padding-top: 15px;
+}
