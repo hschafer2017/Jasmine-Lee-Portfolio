@@ -17,6 +17,7 @@ nav {
 .name {
    color: #808080;
    text-align: left;
+   font-size: 18px;
 }
 .menuFull {
       color:#808080;
@@ -55,4 +56,28 @@ li a:hover{
 /*About*/
 .about{
     padding-top: 15px;
+}
+.photo{
+    padding-top:10px;
+    text-align: right;
+    padding-bottom:15px;
+}
+.profile {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+/*Footer*/
+.awesome{
+    text-align:right;
+}
+.social-links li a i {
+    font-size: 20px;
+}
+.social-links li a i:hover {
+    color:#ffb6c1;
+}
+.copyright {
+    text-align: left;
+    font-size: 15px;
 }
