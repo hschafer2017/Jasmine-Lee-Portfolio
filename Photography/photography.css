@@ -1,0 +1,15 @@
+.modal-content {
+    width: 670px;
+}
+
+.row {
+    margin-top:70px;
+}
+h4{
+    text-align: center;
+}
+.disclaimer {
+    font-size: 10px;
+    font-style: italic; 
+    text-align: center; 
+}

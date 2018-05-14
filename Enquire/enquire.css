@@ -1,0 +1,13 @@
+.container {
+    padding-top: 55px;
+    text-align: left;
+}
+p {
+    font-size: 14px;
+    font-style: normal; 
+    text-align: center; 
+}
+
+.row {
+    padding-top: 25px;
+}

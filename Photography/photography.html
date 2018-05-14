@@ -10,46 +10,78 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lustria" rel="stylesheet">
     <link rel="stylesheet" href="photography.css" type="text/css" />
     <link rel="stylesheet" href="../index.css" type="text/css" />
     <title>Jasmine B. Lee Photography</title>
 </head>
 
 <body>
-    <section>
-        <!--Navbar-->
-        <div class="landing">
-            <nav>
-                <div class="col-xs-1 col-sm-1 col-md-1">
-                </div>
-                <div class="col-xs-4 col-sm-4 col-md-5 name">
-                    <h3><a href="../index.html">Jasmine B. Lee</a></h3>
-                </div>
-                <div class="right">
-                    <div class="navbar-default hidden-sm hidden-md hidden-lg menuBar">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavCol">
+
+    <!--Navbar-->
+
+    <nav>
+        <div class="col-xs-1 col-sm-1 col-md-1">
+        </div>
+        <div class="col-xs-4 col-sm-4 col-md-5 name">
+            <h3><a href="../index.html">Jasmine B. Lee</a></h3>
+        </div>
+        <div class="right">
+            <div class="navbar-default hidden-sm hidden-md hidden-lg menuBar">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavCol">
                     <!--creates collapsed menu icon appearance-->
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                    </div>
-                    <!--the id here is used to link to the button -->
-                    <ul id="myNavCol" class="col-sm-4 col-md-3 nav navbar-nav collapse navbar-collapse navbar-right">
-                        <li><a href="./Photography/photography.html">Photography</a></li>
-                        <li><a href="../Journalism/journalism.html">Journalism</a></li>
-                        <li><a href="../Podcasts/podcasts.html">Podcasts</a></li>
-                        <li><a href="../Enquire/enquire.html">Enquire</a></li>
-                    </ul>
-                </div>
-            </nav>
+            </div>
+            <!--the id here is used to link to the button -->
+            <ul id="myNavCol" class="col-sm-4 col-md-3 nav navbar-nav collapse navbar-collapse navbar-right">
+                <li><a href="./Photography/photography.html">Photography</a></li>
+                <li><a href="../Journalism/journalism.html">Journalism</a></li>
+                <li><a href="../Podcasts/podcasts.html">Podcasts</a></li>
+                <li><a href="../Enquire/enquire.html">Enquire</a></li>
+            </ul>
         </div>
-            <!--Content-->
+    </nav>
+
+    <!--Content-->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                <h4>Jasmine Lee Photography</h4>
+                </div>
+                <button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#myModal">
+                      <img src="../Images/JasmineLeft.jpg" width="150px" height= "200px"></img>
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title" id="myModalLabel">Jasmine Lee</h4>
+                            </div>
+                            <div class="modal-body">
+                                <img src="../Images/JasmineLeft.jpg"></img>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<p class = "disclaimer">All photos are my own.</p>
     </section>
 
 
-<!--Footer-->
-<footer>
+
+    <!--Footer-->
+    <footer>
         <div class="container">
             <div class="row">
                 <div class="col-xs-6 col-sm-6 col-md-6 copyright">
