@@ -34,6 +34,22 @@ li a {
 li a:hover{
     color:#FFB6C1;
 }
+.drop {
+    box-shadow: none;
+    border: none;
+    background-color: #fafafa;
+    text-align: center;
+    width: 120px;
+    color:#808080;
+}
+
+.dropdown-menu {
+    background-color: #fafafa;
+}
+
+.dropdown-menu:hover{
+    color:#FFB6C1;
+}
 
 /*JUMBOTRON*/
 .jumbotron-fluid{
